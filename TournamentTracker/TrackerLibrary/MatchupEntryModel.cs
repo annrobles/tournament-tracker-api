@@ -21,5 +21,10 @@ namespace TrackerLibrary
        /// from as the winner.
        /// </summary>
         public MatchupModel ParentMatchup { get; set; } = new MatchupModel();
+
+        public MatchupEntryModel(double initialScore)
+        {
+
+        }
     }
 }
